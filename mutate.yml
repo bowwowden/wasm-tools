@@ -1,5 +1,5 @@
 project: wasm-tools
-target: mutate
+target: wasm-mutate
 
 cmds: 
-    - cmd: /mutate
+    - cmd: /wasm-mutate

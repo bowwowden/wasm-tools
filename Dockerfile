@@ -18,4 +18,4 @@ RUN cd fuzz && ${HOME}/.cargo/bin/cargo fuzz build
 FROM ubuntu:20.04
 
 ## TODO: Change <Path in Builder Stage>
-COPY --from=builder repo/fuzz/target/x86_64-unknown-linux-gnu/release/mutate* /
+COPY --from=builder repo/fuzz/target/x86_64-unknown-linux-gnu/release/wasm-mutate /
